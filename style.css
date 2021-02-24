@@ -1,0 +1,229 @@
+/* CSS Start */
+html,
+body {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    position: relative;
+    font-family: 'Roboto';
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+a {
+    font-size: 18px;
+}
+
+.banner_header {
+    font-size: 30px;
+    line-height: 35px;
+}
+
+.banner_header1 {
+    font-size: 50px;
+    line-height: 62px;
+}
+
+.banner_button {
+    background: linear-gradient(90deg, #9A00FF 0%, #55B9FF 100%);
+}
+
+.arrow {
+    height: 14.53px;
+    width: 30px;
+}
+
+.banner_header2 {
+    color: #7D8892;
+    font-size: 24px;
+}
+
+.banner_header3 {
+    font-size: 40px;
+    line-height: 35px;
+}
+
+.banner_headerr3 {
+    font-size: 40px;
+    line-height: 15px;
+}
+
+.banner_header4 {
+    font-size: 18px;
+    line-height: 15px;
+}
+
+.banner_header5 {
+    font-size: 15px;
+    color: #7D8892;
+    line-height: 15px;
+}
+
+.banner_header6 {
+    font-size: 18px;
+    color: #56B8FF;
+    padding-top: 0px;
+}
+
+.profile_picture {
+    height: 100%;
+}
+
+.banner_header7 {
+    color: #7D8892;
+    font-size: 24px;
+}
+
+.banner_header8 {
+    font-size: 30px;
+}
+
+.banner_header9 {
+    font-size: 23px;
+    font-weight: 500;
+}
+
+.section3_img1 {
+    width: 460px;
+    height: 335px;
+}
+
+.section5 {
+    background: linear-gradient(102.04deg, #F59F50 23.56%, #FF00D4 172.12%);
+}
+
+.section5_btn {
+    color: white;
+    border: none;
+    padding: 10px;
+}
+
+.banner_header12 {
+    font-size: 23px;
+}
+
+.banner_header10 {
+    font-size: 30px;
+    color: white;
+    line-height: 15px;
+}
+
+.banner_header11 {
+    font-size: 16px;
+    color: white;
+}
+
+.banner_header13 {
+    font-size: 30px;
+}
+
+.banner_header14 {
+    font-size: 16px;
+}
+
+.section7_div {
+    background-color: #2979ff;
+}
+
+.banner_header16 {
+    font-size: 30px;
+    font-weight: 500;
+    color: turquoise;
+}
+
+.banner_header15 {
+    font-size: 30px;
+    font-weight: 500;
+    color: white;
+}
+
+.builderimg {
+    position: absolute;
+    top: -70px;
+    left: 60px;
+    height: 122%;
+}
+
+.patternimg {
+    position: absolute;
+}
+
+.square1 {
+    position: absolute;
+    top: -10px;
+    left: 1020px;
+    height: 690px;
+}
+
+.square2 {
+    position: absolute;
+    left: 1020px;
+    top: 350px;
+    height: 330px;
+}
+
+.vector {
+    position: absolute;
+    left: 0px;
+    top: 283px;
+    height: 400px;
+    width: 680px;
+}
+
+.nav-item {
+    z-index: 1;
+}
+
+.sec2 {
+    position: relative;
+    z-index: 2;
+}
+/* CSS End */
+
+/* Responsive Code */
+/* Media Query Start */
+@media only screen and (max-width: 1000px) {
+    .flex_center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container {
+        padding: 12px;
+    }
+    .banner_header10 {
+        line-height: 30px;
+    }
+    .banner_header16 {
+        font-size: 20px;
+    }
+    .banner_header15 {
+        font-size: 20px;
+    }
+    .banner_header3 {
+        /* font-size:30px ; */
+        line-height: 50px;
+    }
+    .banner_header6 {
+        font-size: 14px;
+    }
+    .builderimg {
+        position: relative;
+        top: 0px;
+        left: 0px;
+        height: 100%;
+    }
+    .vector,
+    .arrow,
+    .circle {
+        display: none;
+    }
+    .banner_header6 {
+        padding-top: 10px;
+    }
+}
+/* Media Query End */
